@@ -1,0 +1,270 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "Tacos el amigo Nacho",
+      "summary": "Calle revolucion #304 atasta",
+      "city": "Villahermosa",
+      "date": "21-septiembre-2021"
+    },
+    {
+      "id": 2,
+      "name": "Pets and pets",
+      "summary": "Calle batallon revolucionario #203",
+      "city": "Cardenas",
+      "date": "20-septiembre-2021"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Libros"
+    },
+    {
+      "id": 2,
+      "name": "Electronicos"
+    },
+    {
+      "id": 3,
+      "name": "Computadoras"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Essential TypeScript 4: From Beginner to Pro Edicion platino",
+      "price": 350,
+      "description": "Aprenda los conceptos básicos y más de TypeScript, un superconjunto popular del lenguaje JavaScript que agrega soporte para escritura estática. TypeScript combina las funciones de escritura de C # o Java.",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+      "price": 200,
+      "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Angular For Dummies- Edicion Especial con Dvd",
+      "price": 174,
+      "description": "En este libro, el lector podrá enfocarse en un concepto de Angular en profundidad y aprender desde cero las funciones básicas de angular para poder crear aplicaciones web.",
+      "categoryId": 1
+      
+    },
+    {
+      "id": 4,
+      "name": " Memoria SanDisk 128GB Ultra MicroSDXC UHS-I con adaptador",
+      "price": 199,
+      "description": "Ideal para teléfonos inteligentes y tabletas Android y cámaras MIL. Aplicación SanDisk Memory Zone para una fácil administración de archivos (se requiere descarga e instalación).",
+      "categoryId": 2
+     
+    },
+    {
+      "id": 5,
+      "name": "Cámara de acción a prueba de agua con LCD frontal GoPro HERO9 Black ",
+      "price": 3999,
+      "description": "Video en 124k! - Grabe videos impresionantes con una resolución de hasta 124K (No puede ser), perfecta para mantener los detalles incluso al hacer zoom",
+      "categoryId": 2,
+      "stock": 3
+    },
+    {
+      "id": 6,
+      "name": "Cable HDMI Macho a macho - 16 metros de largo",
+      "price": 70,
+      "description": "Cable HDMI macho a macho: admite Ethernet, 3D, vídeo 4K y canal de retorno de audio (ARC)",
+      "categoryId": 2,
+      "stock": 4
+    },
+    {
+      "id": 7,
+      "name": "Logitech MK270 Combo Teclado + Mouse Wireless ",
+      "price": 320,
+      "description": "El receptor USB está convenientemente ubicado en la caja, solapa superior. Este teclado y mouse inalámbricos cuentan con tecnología Logitech Advanced 2.4GHz con un alcance de hasta 10 metros.",
+      "categoryId": 3,
+      "stock": 7
+    },
+    {
+      "id": 8,
+      "name": "Lector CD/DVD portatil USB 3.0 Asus SDRW-08D2S-U ",
+      "price": 2000,
+      "description": "Plug and Play. Fácil de usar, alimentado por puerto USB. No se necesita controlador externo ni energía. Simplemente conéctelo a su puerto USB y se detectará el controlador de DVD",
+      "categoryId": 3,
+      "stock": 8
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "Veggeta777",
+      "date": "01/12/1995",
+      "shippingAddress": "Av. de la Granvia de Hospitalet, 115",
+      "city": "Barcelona",
+      "pickup": true
+    },
+    {
+      "name": "Minato Aqua",
+      "shippingAddress": "",
+      "city": "",
+      "date": "16/8/2021",
+      "isDelivery": true,
+      "id": 2
+    },
+    {
+      "name": "Subaru",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "16/8/2021",
+      "isDelivery": true,
+      "id": 3
+    },
+    {
+      "name": "Subaru",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "16/8/2021",
+      "isDelivery": true,
+      "id": 4
+    },
+    {
+      "name": "Erick Alberto Diaz Bastar",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "16/8/2021",
+      "isDelivery": true,
+      "id": 5
+    },
+    {
+      "name": "Erick Alberto Diaz Bastar",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "16/8/2021",
+      "isDelivery": true,
+      "id": 6
+    },
+    {
+      "name": "Erick Alberto Diaz Bastar",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "16/8/2021",
+      "isDelivery": true,
+      "id": 7
+    },
+    {
+      "name": "Erick Alberto Diaz Bastar",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "16/8/2021",
+      "isDelivery": true,
+      "id": 8
+    },
+    {
+      "name": "Erick Alberto Diaz Bastar",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "16/8/2021",
+      "isDelivery": true,
+      "id": 9
+    },
+    {
+      "name": "amelia watson",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "16/8/2021",
+      "isDelivery": true,
+      "id": 10
+    },
+    {
+      "name": "sakura miko",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "17/8/2021",
+      "isDelivery": true,
+      "id": 11
+    },
+    {
+      "name": "Erick Alberto",
+      "shippingAddress": "revolucion",
+      "city": "villahermosa",
+      "date": "18/8/2021",
+      "isDelivery": true,
+      "id": 12
+    },
+    {
+      "name": "amelia watson",
+      "shippingAddress": "calle revolucion 207 Int 19, Atasta",
+      "city": "Villahermosa",
+      "date": "19/8/2021",
+      "isDelivery": true,
+      "id": 13
+    }
+  ],
+  "detailsOrders": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "quantity": 10,
+      "productName": "Product name"
+    },
+    {
+      "details": [],
+      "orderId": 2,
+      "id": 2
+    },
+    {
+      "details": [],
+      "orderId": 3,
+      "id": 3
+    },
+    {
+      "details": [],
+      "orderId": 4,
+      "id": 4
+    },
+    {
+      "details": [],
+      "orderId": 5,
+      "id": 5
+    },
+    {
+      "details": [],
+      "orderId": 6,
+      "id": 6
+    },
+    {
+      "details": [],
+      "orderId": 7,
+      "id": 7
+    },
+    {
+      "details": [],
+      "orderId": 8,
+      "id": 8
+    },
+    {
+      "details": [],
+      "orderId": 9,
+      "id": 9
+    },
+    {
+      "details": [],
+      "orderId": 10,
+      "id": 10
+    },
+    {
+      "details": [],
+      "orderId": 11,
+      "id": 11
+    },
+    {
+      "details": [],
+      "orderId": 12,
+      "id": 12
+    },
+    {
+      "details": [],
+      "orderId": 13,
+      "id": 13
+    }
+  ]
+}
